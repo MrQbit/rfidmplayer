@@ -1,0 +1,29 @@
+[36,152,19,184,23]
+Description: Tell my IP
+FileUrlFunction: hostname -I | festival --tts
+ActionType: OS
+TagType: Tag_0
+
+[9,161,122,158,76]
+Description: Radio 5 3 8
+FileUrlFunction: http://vip-icecast.538.lw.triple-it.nl/RADIO538_MP3
+ActionType: URL
+TagType: Tag_1
+
+[41,242,121,158,60]
+Description: Monsters Inc
+FileUrlFunction: /home/pi/MP3/MonstersInc/MonstersInc.mp3
+ActionType: File
+TagType: Tag_2
+
+[73,241,126,74,140]
+Description: Frozen Soundtrack
+FileUrlFunction: /home/pi/MP3/FrozenSoundtrack/FrozenSoundtrack.pls
+ActionType: Playlist
+TagType: Tag_3
+
+[52,129,245,184,248]
+Description: Pause
+FileUrlFunction: pause
+ActionType: Function
+TagType: Tag_4
